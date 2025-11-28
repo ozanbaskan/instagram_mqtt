@@ -125,7 +125,7 @@ export class FbnsClient extends EventEmitter<ToEventFn<FbnsClientEvents & { [x: 
          }
 
          this.fbnsDebug('Connected to MQTT');
-         if (!res.payload?.length) {
+         if (!res?.payload?.length) {
             this.fbnsDebug(`Received empty connect packet. Reason: ${res.errorName}; Try resetting your fbns state!`);
             this.emit('error', new EmptyPacketError('Received empty connect packet. Try resetting your fbns state!'));
             await this.client.disconnect();
