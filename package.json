@@ -1,6 +1,6 @@
 {
    "name": "obigmqtt",
-   "version": "0.0.4",
+   "version": "0.0.5",
    "description": "Realtime and Push Notification (FBNS) support for the instagram-private-api",
    "bugs": {
       "url": "https://github.com/ozanbaskan/instagram_mqtt/issues"
@@ -37,7 +37,7 @@
       "debug": "^4.3.4",
       "eventemitter3": "^5.0.1",
       "instagram-private-api": "^1.46.1",
-      "obmqtt": "^0.0.2",
+      "obmqtt": "^0.0.4",
       "socks": "^2.8.1",
       "ts-custom-error": "^3.3.1"
    },
