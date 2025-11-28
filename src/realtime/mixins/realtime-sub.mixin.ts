@@ -5,7 +5,7 @@ import { tryUnzipAsync } from '../../shared';
 import { GraphQlMessage, ParsedMessage } from '../parsers';
 import { QueryIDs } from '../subscriptions';
 import { RealtimeSubDirectDataWrapper } from '../messages';
-import { IllegalStateError } from 'mqtts';
+import { IllegalStateError } from 'obmqtt';
 
 export class RealtimeSubMixin extends Mixin {
    apply(client: RealtimeClient): void {

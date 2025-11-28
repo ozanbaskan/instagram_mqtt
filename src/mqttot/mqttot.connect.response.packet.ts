@@ -1,4 +1,4 @@
-import { ConnectResponsePacket, PacketStream, ConnectReturnCode } from 'mqtts';
+import { ConnectResponsePacket, PacketStream, ConnectReturnCode } from 'obmqtt';
 
 export class MQTToTConnectResponsePacket extends ConnectResponsePacket {
    constructor(

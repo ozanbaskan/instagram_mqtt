@@ -15,7 +15,7 @@ import {
    PacketType,
    SocksTlsTransport,
    TlsTransport,
-} from 'mqtts';
+} from 'obmqtt';
 import { ConnectionFailedError, EmptyPacketError } from '../errors';
 import { MQTToTConnectResponsePacket, readConnectResponsePacket } from './mqttot.connect.response.packet';
 import { SocksProxy } from 'socks';

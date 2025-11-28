@@ -1,7 +1,7 @@
 import { Topic } from '../../topic';
 import { compressDeflate } from '../../shared';
 import { MQTToTClient } from '../../mqttot';
-import { MqttMessageOutgoing } from 'mqtts';
+import { MqttMessageOutgoing } from 'obmqtt';
 
 export class Commands {
    public constructor(private client: MQTToTClient) {}

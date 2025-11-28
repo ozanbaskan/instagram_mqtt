@@ -1,4 +1,4 @@
-import { PacketStream, PacketWriteResult } from 'mqtts';
+import { PacketStream, PacketWriteResult } from 'obmqtt';
 
 export interface MQTToTConnectPacketOptions {
    keepAlive: number;

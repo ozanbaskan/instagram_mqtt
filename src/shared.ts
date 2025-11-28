@@ -1,7 +1,7 @@
 import { IgApiClient } from 'instagram-private-api';
 import { CompressCallback, deflate, InputType, unzip, ZlibOptions } from 'zlib';
 import debug, { Debugger } from 'debug';
-import { MqttClient } from 'mqtts';
+import { MqttClient } from 'obmqtt';
 import { promisify } from 'util';
 const deflatePromise = promisify(deflate as (buf: InputType, options: ZlibOptions, callback: CompressCallback) => void);
 const unzipPromise = promisify(unzip as (buf: InputType, callback: CompressCallback) => void);

@@ -3,7 +3,7 @@ import { REALTIME, RealtimeTopicsArray, Topics } from '../constants';
 import { Commands, DirectCommands } from './commands';
 import { compressDeflate, debugChannel, prepareLogString, ToEventFn, tryUnzipAsync } from '../shared';
 import { MQTToTClient, MQTToTConnection, MQTToTConnectionClientInfo } from '../mqttot';
-import { IllegalStateError, MqttMessageOutgoing } from 'mqtts';
+import { IllegalStateError, MqttMessageOutgoing } from 'obmqtt';
 import { ClientDisconnectedError } from '../errors';
 import { EventEmitter } from 'eventemitter3';
 import { RealtimeClientEvents } from './realtime.client.events';

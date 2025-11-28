@@ -3,7 +3,7 @@ import { RealtimeClient } from '../realtime.client';
 import { Topics } from '../../constants';
 import { tryUnzipAsync } from '../../shared';
 import { IrisParserData } from '../parsers';
-import { IllegalStateError } from 'mqtts';
+import { IllegalStateError } from 'obmqtt';
 
 export class MessageSyncMixin extends Mixin {
    apply(client: RealtimeClient): void {

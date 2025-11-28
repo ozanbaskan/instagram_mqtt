@@ -1,7 +1,7 @@
 import { GraphQlMessage, IrisParserData, ParsedMessage } from './parsers';
 import { AppPresenceEventWrapper, MessageSyncMessageWrapper, RealtimeSubDirectDataWrapper } from './messages';
 import { Topic } from '../topic';
-import { MqttMessage } from 'mqtts';
+import { MqttMessage } from 'obmqtt';
 import { QueryIDs } from './subscriptions';
 import { ThreadUpdateWrapper } from './messages/thread-update.message';
 

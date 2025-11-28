@@ -4,7 +4,7 @@ import { compressDeflate, debugChannel, notUndefined } from '../../shared';
 import { MessageSyncMessageTypes } from '../messages';
 import * as Chance from 'chance';
 import { ThriftDescriptors, ThriftPacketDescriptor, thriftWriteFromObject } from '../../thrift';
-import { MqttMessageOutgoing } from 'mqtts';
+import { MqttMessageOutgoing } from 'obmqtt';
 
 interface ItemBaseType {
    threadId: string;

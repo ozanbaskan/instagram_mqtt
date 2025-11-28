@@ -13,7 +13,7 @@ import {
 import { MQTToTConnection, MQTToTClient, MQTToTConnectResponsePacket } from '../mqttot';
 import { Chance } from 'chance';
 import { FbnsMessageData, FbnsNotificationUnknown } from './fbns.types';
-import { IllegalStateError, MqttMessage } from 'mqtts';
+import { IllegalStateError, MqttMessage } from 'obmqtt';
 import { ClientDisconnectedError, EmptyPacketError, InvalidStateError } from '../errors';
 import { EventEmitter } from 'eventemitter3';
 import { FbnsClientEvents } from './fbns.client.events';
