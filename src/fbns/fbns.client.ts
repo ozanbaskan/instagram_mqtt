@@ -160,6 +160,9 @@ export class FbnsClient extends EventEmitter<ToEventFn<FbnsClientEvents & { [x: 
             this.fbnsDebug(`Connection failed: ${e}`);
             throw e;
          });
+
+      if (!this.client.ready) throw new Error('OB Connection failed');
+
       await this.client.subscribe({ topic: FbnsTopics.FBNS_MESSAGE.id });
 
       const msg = await listenOnce<MqttMessage>(this.client, FbnsTopics.FBNS_REG_RESP.id);
