@@ -1,14 +1,14 @@
 {
    "name": "obigmqtt",
-   "version": "0.0.3",
+   "version": "0.0.4",
    "description": "Realtime and Push Notification (FBNS) support for the instagram-private-api",
    "bugs": {
-      "url": "https://github.com/ozanbaskan7/instagram_mqtt/issues"
+      "url": "https://github.com/ozanbaskan/instagram_mqtt/issues"
    },
    "main": "dist/index.js",
    "repository": {
       "type": "git",
-      "url": "https://github.com/ozanbaskan7/instagram_mqtt.git"
+      "url": "https://github.com/ozanbaskan/instagram_mqtt.git"
    },
    "files": [
       "dist"
